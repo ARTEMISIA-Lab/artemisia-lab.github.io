@@ -2350,12 +2350,54 @@ figure img {
 
 .featured-image img {
   width: 100%; /* Ensures the image takes the full width of its container */
-  height: 400px !important; /* Set a fixed height for uniformity */
+  height: 220px !important; /* Set a fixed height for uniformity */
   object-fit: cover; /* Crop the image to fit the container while maintaining aspect ratio */
+  object-position: top; /* Focus on the top of the image (usually faces) */
+}
+
+/* Founder image - no cropping */
+.founder-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
 .featured-copyright-image img {
   width: 100%; /* Ensures the image takes the full width of its container */
   height: 700px !important; /* Set a fixed height for uniformity */
   object-fit: cover; /* Crop the image to fit the container while maintaining aspect ratio */
+}
+
+/* Profile links styling */
+.post p a {
+  color: #2563eb; /* Blue color */
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.post p a:hover {
+  color: #1d4ed8; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* News section scrollbar */
+.news-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+.news-section::-webkit-scrollbar-track {
+  background: #d0e8f2;
+  border-radius: 5px;
+}
+
+.news-section::-webkit-scrollbar-thumb {
+  background: #69acc7;
+  border-radius: 5px;
+}
+
+.news-section::-webkit-scrollbar-thumb:hover {
+  background: #4a8fa8;
 }

@@ -1,4 +1,4 @@
-<!doctype publications>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,11 +8,11 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1"
     />
 
-    <title>Contact : Science Labs</title>
+    <title>Contact - ARTEMISIA Lab</title>
 
     <!-- Loading third party fonts -->
     <link
-      href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|"
       rel="stylesheet"
       type="text/css"
     />
@@ -31,25 +31,23 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-680ZGHNES9"
     ></script>
-  </head>
-
-  <body>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-680ZGHNES9");
     </script>
+  </head>
 
+  <body>
     <div class="site-content">
       <header class="site-header" data-bg-image="">
         <div class="container">
           <div class="header-bar">
             <a href="index.html" class="branding sm:max-w-[40%] md:max-w-[45%]">
-              <img src="images/artemisia-logo.jpg" alt="" class="logo" />
+              <img src="images/artemisia-logo.jpg" alt="ARTEMISIA Lab Logo" class="logo" />
               <div class="logo-type sm:max-w-[30%] md:max-w-[60%]">
                 <h1 class="site-title">ARTEMISIA Lab</h1>
                 <small class="site-description">
@@ -64,26 +62,21 @@
                 <i class="fa fa-bars"></i>
               </button>
               <ul class="menu">
-                <li class="home menu-item flex justify-center">
+                <li class="home menu-item">
                   <a href="index.html">
-                    <img
-                      src="images/home-icon.png"
-                      alt="Home"
-                      width="20"
-                      height="17"
-                    />
+                    <img src="images/home-icon.png" alt="Home" />
                   </a>
                 </li>
-                <li class="menu-item current-menu-item">
+                <li class="menu-item">
                   <a href="about.html">About</a>
                 </li>
                 <li class="menu-item">
                   <a href="publications.html">Publications</a>
                 </li>
                 <li class="menu-item">
-                  <a href="projects.html">Our projects</a>
+                  <a href="projects.html">Projects</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item current-menu-item">
                   <a href="contact.html">Contact</a>
                 </li>
               </ul>
@@ -104,63 +97,49 @@
 
       <main class="main-content">
         <div class="fullwidth-block">
-          <div class="container">
-            <div class="flex flex-wrap">
-              <!-- Flex container to ensure equal height columns -->
-              <div class="w-full md:w-1/3 p-4">
-                <div class="boxed-content h-full bg-gray-100 p-6">
-                  <h2 class="section-title">Address</h2>
-                  <address>
-                    <p>ARTEMISIA Lab</p>
-                    <p>
-                      Terzioğlu Campus, Faculty of Engineering, Barbaros
-                      Neighborhood, Çanakkale 18 Mart University B213
-                    </p>
-                  </address>
-                </div>
-              </div>
-              <div class="w-full md:w-1/3 p-4"></div>
-              <!-- Empty space -->
-              <div class="w-full md:w-1/3 p-4">
-                <div class="boxed-content h-full bg-gray-100 p-6">
-                  <h2 class="section-title">Email</h2>
-                  <p>
-                    <strong>Office:</strong>
-                    <a href="mailto:ulya.bayram@comu.edu.tr"
-                      >ulya.bayram@comu.edu.tr</a
-                    >
-                  </p>
-                  <p>
-                    <strong>Support:</strong>
-                    <a href="mailto:aminadzafic1@hotmail.com"
-                      >aminadzafic1@hotmail.com</a
-                    >
-                  </p>
-                </div>
-              </div>
+          <div class="container" style="max-width: 700px; margin: 0 auto;">
+            
+            <!-- Address Card -->
+            <div style="background: white; padding: 30px 35px; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); margin-bottom: 20px; text-align: center;">
+              <div style="font-size: 2em; margin-bottom: 10px;">📍</div>
+              <h3 style="color: #3d6b5f; font-size: 1.1em; margin-bottom: 15px; font-weight: 600;">Address</h3>
+              <p style="font-size: 0.95em; line-height: 1.7; color: #555; margin: 0;">
+                ARTEMISIA Lab<br>
+                Terzioglu Campus, Faculty of Engineering<br>
+                Barbaros Neighborhood, Room B213<br>
+                Canakkale Onsekiz Mart University<br>
+                Canakkale, Turkiye
+              </p>
             </div>
+
+            <!-- Email Card -->
+            <div style="background: white; padding: 30px 35px; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); margin-bottom: 20px; text-align: center;">
+              <div style="font-size: 2em; margin-bottom: 10px;">✉️</div>
+              <h3 style="color: #3d6b5f; font-size: 1.1em; margin-bottom: 15px; font-weight: 600;">Email</h3>
+              <p style="font-size: 0.95em; line-height: 2; color: #555; margin: 0;">
+                <strong>Lab Director:</strong> <a href="mailto:ulya.bayram@comu.edu.tr" style="color: #2563eb;">ulya.bayram[at]comu.edu.tr</a><br>
+              </p>
+            </div>
+
+            <!-- Social Links Card -->
+            <div style="background: white; padding: 30px 35px; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); text-align: center;">
+              <div style="font-size: 2em; margin-bottom: 10px;">🔗</div>
+              <h3 style="color: #3d6b5f; font-size: 1.1em; margin-bottom: 15px; font-weight: 600;">Connect</h3>
+              <p style="font-size: 0.95em; color: #555; margin: 0;">
+                <a href="https://github.com/artemisia-lab" target="_blank" style="color: #2563eb; margin: 0 10px;">GitHub</a> |
+                <a href="https://www.linkedin.com/in/ulyabayram" target="_blank" style="color: #2563eb; margin: 0 10px;">LinkedIn</a> |
+                <a href="https://scholar.google.com/citations?user=xPn709cAAAAJ&hl=en" target="_blank" style="color: #2563eb; margin: 0 10px;">Google Scholar</a>
+              </p>
+            </div>
+
           </div>
         </div>
       </main>
-
-      <footer
-        class="site-footer text-center md:absolute md:bottom-0 md:left-0 md:right-0"
-        style="background-color: #edf2f4"
-      >
-        <div class="container">
-          <p class="colophon">
-            Copyright 2024. Designed by
-            <a
-              href="https://github.com/aminadzafic"
-              title="Designed by Amina Dzafic"
-              target="_blank"
-              >github.com/aminadzafic</a
-            >. All rights reserved.
-          </p>
-        </div>
-      </footer>
     </div>
-    <!-- .site-content -->
+
+    <footer style="text-align: center; padding: 10px 0; background: #f9f9f9;">
+      <span style="color: #aaa; font-size: 10px !important;">© 2024 ARTEMISIA Lab</span>
+    </footer>
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/plugins.js"></script>
