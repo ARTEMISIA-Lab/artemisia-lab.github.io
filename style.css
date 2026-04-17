@@ -130,7 +130,7 @@ pre {
 }
 
 q {
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 q:before,
@@ -1618,7 +1618,7 @@ form input.white[type="reset"] {
 
 .header-bar {
   *zoom: 1;
-  background: #F5F2ED;
+  background: #f5f2ed;
   border-radius: 5px;
 }
 .header-bar:after {
@@ -1896,8 +1896,7 @@ form .hero .slide-content input[type="reset"] {
 }
 
 .section-title {
-  font-size: 30px;
-  font-size: 2em;
+  font-size: 22px;
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -2351,15 +2350,12 @@ figure img {
 
 .featured-image img {
   width: 100%; /* Ensures the image takes the full width of its container */
-  height: 500px !important; /* Set a fixed height for uniformity */
+  height: 400px !important; /* Set a fixed height for uniformity */
   object-fit: cover; /* Crop the image to fit the container while maintaining aspect ratio */
 }
-
 
 .featured-copyright-image img {
   width: 100%; /* Ensures the image takes the full width of its container */
   height: 700px !important; /* Set a fixed height for uniformity */
   object-fit: cover; /* Crop the image to fit the container while maintaining aspect ratio */
 }
-
-                
